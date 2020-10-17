@@ -1,0 +1,33 @@
+{
+    "name": "slicklabs/laravel-slickapi",
+    "description": "Provides functionality for laravel communication with SlickAPI\"",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nathan Jansen",
+            "email": "nathan@wefabric.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlickLabs\\Laravel\\SlickAPI\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SlickLabs\\Laravel\\SlickAPI\\SlickAPIServiceProvider"
+            ],
+            "aliases": {
+                "SlickAPI": "SlickLabs\\Laravel\\SlickAPI\\SlickAPIManagerFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
