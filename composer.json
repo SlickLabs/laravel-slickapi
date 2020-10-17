@@ -2,12 +2,14 @@
     "name": "slicklabs/laravel-slickapi",
     "description": "Provides functionality for laravel communication with SlickAPI\"",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nathan Jansen",
             "email": "nathan@wefabric.nl"
         }
     ],
+    "homepage": "https://wefabric.nl/",
     "minimum-stability": "dev",
     "require": {
         "php": "^7.1"
